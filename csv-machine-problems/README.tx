@@ -1,0 +1,52 @@
+Programming 2 Machine Problem Set
+CSV Dataset Processing using Java and JavaScript
+
+Student Name: Gray Allen Arizala
+Repository: uphsd-cs-arizala-grayallen
+
+This project contains programs that process a CSV dataset using both Java and JavaScript. 
+Each program asks the user to input the dataset file path before reading and processing the data. 
+The programs use file reading methods to parse CSV rows and perform different data processing tasks.
+
+------------------------------------------------------------
+
+MP10 – Detect Duplicate Records
+
+This program reads the CSV dataset and checks for duplicate rows. 
+Each row is stored in a data structure that tracks unique records. 
+If the program encounters a row that already exists, it is identified as a duplicate. 
+The duplicate records are displayed along with the total number of duplicates found.
+
+------------------------------------------------------------
+
+MP11 – Frequency Count for Column Values
+
+This program counts how many times values appear in a selected column of the dataset. 
+The user enters the column index that will be analyzed. 
+Each row is split into columns and the value from the chosen column is counted. 
+The program then displays the frequency of each value found in that column.
+
+------------------------------------------------------------
+
+MP12 – Display Dataset in Formatted Table Output
+
+This program reads the CSV dataset and prints the contents in a formatted table layout. 
+Each row is separated into columns using the comma delimiter. 
+The program formats the output so each column has equal spacing, making the dataset easier to read. 
+This produces a structured table-like display in the console.
+
+
+
+
+How to Run the Programs
+
+Java:
+1. Navigate to the java folder.
+2. Compile the program using: javac FileName.java
+3. Run using: java FileName
+4. Enter the dataset file path when prompted.
+
+JavaScript:
+1. Navigate to the javascript folder.
+2. Run using: node filename.js
+3. Enter the dataset file path when prompted.
