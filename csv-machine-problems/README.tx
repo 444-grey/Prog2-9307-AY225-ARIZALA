@@ -41,12 +41,10 @@ This produces a structured table-like display in the console.
 How to Run the Programs
 
 Java:
-1. Navigate to the java folder.
-2. Compile the program using: javac FileName.java
-3. Run using: java FileName
-4. Enter the dataset file path when prompted.
+1. Compile the program using: javac FileName.java
+2. Run using: java FileName
+3. Enter the dataset file path when prompted.
 
 JavaScript:
-1. Navigate to the javascript folder.
-2. Run using: node filename.js
-3. Enter the dataset file path when prompted.
+1. Run using: node filename.js
+2. Enter the dataset file path when prompted.
